@@ -20,6 +20,9 @@ The travel page is used to record the beautiful moments in the user's travel pro
 ## Posts
 The Posts interface can help users find travel cards shared by other users, and users can choose to like or bookmark the corresponding travel cards. The layout of this page adopts a waterfall flow method, avoiding the description of different lengths to make the cards unable to align
 
+## About
+Using tabs to show the instructions of Journey Memo.
+
 ## Privacy
 - All icons on the page are from Ali Icon. All icons are available for download and change color and size. Icon copyright belongs to the designer.
 - The spinner image on the cover page is from google image. Belongs to Commercial & other licenses.
