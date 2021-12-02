@@ -1,5 +1,6 @@
 # INFO6150_final
 Journey Memo is a Single-Page Application based on ReactJS that is used to record travel expenses, photos, and view photos posted by other users in the system.
+(All pages implements skip link)
 
 ## Preaface
 - Use useEffect to simulate the delay processing when loading the webpage. In the offline state, the spinner will rotate for 3 seconds, and then the page will automatically jump to the program homepage.
