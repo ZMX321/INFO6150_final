@@ -1,0 +1,80 @@
+
+
+
+.about_page {
+    margin: 0 auto;
+
+    margin-top: 10rem;
+
+    width: 80%;
+    max-width: 40rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs_title > button {
+    height: 1.5rem;
+    width:6rem;
+
+    background-color: transparent;
+    border: 3px solid #494E6B;
+    border-radius: 0.5rem;
+    border-bottom: none;
+
+    font-size: large;
+}
+
+.tabs_title > button:hover, .tabs_title > button:focus {
+    background-color: #494E6B;
+    color: white;
+}
+
+.tabs--open > button {
+    background-color: #494E6B;
+    color: white;
+
+    border: 3px solid #494E6B;
+    border-radius: 0.5rem;
+    border-bottom: none;
+    
+}
+
+.titles {
+    display: flex;
+    flex-direction: row;
+}
+
+.tabs_content {
+    min-height: 9rem;
+    height: max-content;
+    border: 3px solid #494E6B;
+
+    border-radius: 0.3rem;
+}
+
+.tab_content {
+    margin:0.8rem;
+
+    font-size: medium;
+}
+
+
+@media only screen and (max-width:620px) {
+    .tabs_title > button {
+        width:4rem;
+        font-size: small;
+    }
+
+    .tab_content {
+        font-size: small;
+    }
+
+}
+
+@media only screen and (max-width:420px) {
+    .tabs_title > button {
+        width: 3rem;
+        font-size: x-small;
+    }
+}

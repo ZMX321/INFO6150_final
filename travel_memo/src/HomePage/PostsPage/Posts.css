@@ -1,0 +1,28 @@
+
+.posts_page {
+    padding-bottom: 8rem;
+}
+
+.posts_holder {
+    margin: 2rem auto;
+
+    column-count: 2;
+    column-gap: 1rem;
+
+    width:42rem;
+}
+
+
+@media only screen and (max-width:770px){
+    .posts_holder {
+        column-count: 1;
+    }
+
+    .post_card {
+        margin: 0 auto;
+    }
+
+    .posts_holder {
+        width:100%;
+    }
+}

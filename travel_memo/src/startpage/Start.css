@@ -1,0 +1,26 @@
+.start_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 8rem;
+}
+
+.spinner {
+    height: 100px;
+    width: 100px;
+    animation: image-spin infinite 5s linear;
+}
+
+
+@keyframes image-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

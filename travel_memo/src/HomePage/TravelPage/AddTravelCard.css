@@ -1,0 +1,61 @@
+
+
+.travel_form_container {
+
+    border: 2px solid #494E6B;
+    border-radius: 0.5rem;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.travel_form_pic > img {
+    width:100%;
+    object-fit: cover;
+}
+
+.travel_form_content {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.travel_form_content > label {
+    margin-top: 0.5rem;
+}
+
+.travel_form_content > input {
+    width: 13rem;
+}
+
+.travel_form_content > button {
+    margin:0 auto;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    padding: 0.5rem;
+
+    background-color: transparent;
+    border: 1px solid #494E6B;
+    border-radius: 0.5rem;
+
+    color: #494E6B;
+    font-size: medium;
+    
+}
+
+.travel_form_content > textarea {
+    height:5rem;
+    width: 13rem;
+
+    font-family: sans-serif;
+}
+
+.travel_form_content > button:hover {
+    background-color:#494E6B;
+    color: white;
+}

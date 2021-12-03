@@ -1,0 +1,52 @@
+
+.expense_card {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px solid #494E6B;
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2);
+    width: 25rem;
+    border-radius: 0.5rem;
+    transition: 1s;
+    background-color: white;
+
+    display: flex;
+}
+
+.amount {
+    margin: 0.8rem;
+    margin-top: 0;
+
+}
+
+.expense_title {
+    font-size: large;
+    padding: 1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.expense_button {
+    margin-left: auto;
+}
+
+.card_button {
+    background-color: transparent;
+    border:none;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_button > img {
+    height:40px;
+    width:40px;
+}
+

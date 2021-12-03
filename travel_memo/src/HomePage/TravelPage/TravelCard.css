@@ -1,0 +1,50 @@
+
+.travel_card {
+    border: 2px solid #494E6B;
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2);
+    width:15rem;
+    border-radius: 0.5rem;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.travel_img > img {
+    width:100%;
+
+    object-fit: cover;
+}
+
+.travel_loc {
+    color:gray;
+    margin-left: auto;
+
+    font-style: italic;
+    padding:0.5rem;
+}
+
+.travel_desc {
+    padding: 0.5rem;
+
+    font-family: cursive;
+}
+
+.travel_button {
+    margin: 0 auto;
+}
+
+.travel_button > button{
+    width: 13rem;
+
+    height: 2rem;
+
+    background-color: transparent;
+
+    color:rgb(153, 4, 4);
+    border: none;
+
+    border-top: 1px solid #494E6B;
+
+}

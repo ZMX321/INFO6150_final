@@ -1,0 +1,82 @@
+
+.post_card {
+    border: 2px solid #494E6B;
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2);
+    width:20rem;
+    border-radius: 0.5rem;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    
+    break-inside: avoid;
+    overflow: auto;
+    margin-bottom:1rem;
+}
+
+.post_img > img{
+    width:100%;
+    object-fit: cover;
+}
+
+.post_loc {
+    color:gray;
+    margin-left: auto;
+
+    font-style: italic;
+    padding:0.5rem;
+}
+
+.post_desc {
+    padding: 0.5rem;
+
+    font-family: cursive;
+}
+
+.post_card_line {
+    margin-top: 1rem;
+    width:18rem;
+    border:0.2px solid #494E6B;
+}
+
+.post_button {
+    display: flex;
+
+    margin-bottom: 0.2rem;
+}
+
+.post_button > button {
+    display: flex;
+    align-items: center;
+
+    width : 10rem;
+    justify-content: center;
+
+    border: none;
+    background-color: transparent;
+}
+
+.post_button > button > span {
+    padding-left: 0.8rem;
+
+    font-size:1rem;
+}
+
+.like {
+    background-color: #D4237A;
+    color: white;
+}
+
+.likes_num {
+    color:#D4237A;
+}
+
+.collection_num {
+    color:#c5bb04;
+}
+
+.post_button > button > img{
+    width:40px;
+    height: 40px;
+}
+

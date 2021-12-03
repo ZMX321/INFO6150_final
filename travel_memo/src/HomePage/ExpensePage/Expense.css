@@ -1,0 +1,102 @@
+
+
+.expense_page {
+    padding-bottom: 8rem;
+}
+.filted {
+    display: none;
+}
+
+.search_item {
+    margin:0 auto;
+    margin-top:1.5rem;
+
+    width:25rem;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.search_item > input {
+    height: 2rem;
+
+    border-radius: 1rem;
+    border: 2px solid #494E6B;
+
+    width:20rem;
+}
+
+.search_item > img{
+    width:2.5rem;
+}
+
+.no_element {
+    text-align: center;
+    font-size: large;
+    border: 2px solid #494E6B;
+    color:#494E6B;
+
+    width:25rem;
+
+    padding : 2rem;
+    margin: 0 auto;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.switch {
+    width:40px;
+    margin-left: 59%;
+
+    background-color: transparent;
+    border: none;
+}
+
+.switch img {
+    width:40px;
+    transition: 0.5s;
+}
+
+.switch_on {
+    transform: rotate(-45deg);
+}
+
+.expense_line {
+    width:28rem;
+    border:1px solid #494E6B;
+}
+
+.hide {
+    display: none;
+}
+
+.add_show {
+    animation:Animation ease 2s;
+
+}
+
+@keyframes Animation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+}
+
+
+@media only screen and (max-width:560px){
+    .search_item > input {
+        width: 15rem;
+    }
+
+    .no_element {
+        width:15rem;
+    }
+
+    .expense_card {
+        width:15rem;
+    }
+}
